@@ -1,0 +1,9 @@
+repositories:
+  - name: devchart
+    value: git+https://github.com/lokeshmaxi/devchart?red=master&parse=0
+ 
+releases:
+
+  - name: devchart
+    chart: ./devchart
+    installed: true
